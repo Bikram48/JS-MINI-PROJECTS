@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.container {
+    height: 100vh;
+    background-color: rgb(60, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.labels {
+    margin-bottom: 2em;
+}
+
+.labels > label {
+    color: #a1d651;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.buttons > button {
+    background-color: #9da197;
+    border-color: white;
+    width: 70px;
+    height: 40px;
+    color: white;
+}
