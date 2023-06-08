@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    color: indianred;
+}
+.container {
+    display: grid;
+    margin-bottom: 1em;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+    padding: 10px;
+}
+
+.box {
+    background-color: aliceblue;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 4rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.reset-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn button {
+    width: 70px;
+    height: 37px;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    color: indianred;
+    font-size: 2rem;
+}
+
+#playerTurn {
+    color: blue;
+}
+
