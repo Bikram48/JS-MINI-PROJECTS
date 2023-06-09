@@ -1,0 +1,23 @@
+img {
+    display: block;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.menu-items {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    gap: 1rem;
+    flex-basis: 48%;
+}
